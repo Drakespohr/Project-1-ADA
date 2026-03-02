@@ -117,6 +117,16 @@ junit.xml
 test-results/
 
 # ===========================
+# Agricultural Data (not tracked - disposable)
+# ===========================
+data/ag-skills/*
+!data/ag-skills/fields/.gitkeep
+!data/ag-skills/soil/.gitkeep
+!data/ag-skills/weather/.gitkeep
+!data/ag-skills/cdl/.gitkeep
+!data/ag-skills/imagery/.gitkeep
+
+# ===========================
 # Misc
 # ===========================
 *.tgz
