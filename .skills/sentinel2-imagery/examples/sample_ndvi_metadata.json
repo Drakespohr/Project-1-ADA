@@ -1,12 +1,12 @@
 {
-  "product_id": "S2A_T33UUV_20240615T105031",
+  "product_id": "S2A_T15TUM_20240615T165031",
   "acquisition_date": "2024-06-15",
   "acquisition_time": "10:50:31",
   "platform": "Sentinel-2A",
   "product_type": "S2MSI2A",
   "processing_level": "Level-2A",
-  "tile_id": "T33UUV",
-  "utm_zone": 33,
+  "tile_id": "T15TUM",
+  "utm_zone": 15,
   "latitude_band": "U",
   "grid_square": "UV",
   "cloud_cover": 12,
@@ -17,7 +17,7 @@
   "solar_zenith_angle": 28.5,
   "solar_azimuth_angle": 145.2,
   "spatial_resolution": 10,
-  "crs": "EPSG:32633",
+  "crs": "EPSG:32615",
   "bands_downloaded": ["B02", "B03", "B04", "B08"],
   "bands_used_for_ndvi": ["B04", "B08"],
   "ndvi_calculation": {
@@ -42,7 +42,7 @@
   ],
   "download_info": {
     "source": "Copernicus Data Space",
-    "url": "https://dataspace.copernicus.eu",
+    "url": "https://apihub.copernicus.eu/apihub",
     "download_date": "2024-06-16",
     "file_size_mb": 850
   }

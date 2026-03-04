@@ -108,13 +108,26 @@ def query_sda(sql: str) -> list[dict[str, Any]]:
     """
     _check_deps()
 
-    response = requests.post(
-        SDA_URL,
-        data={"query": sql, "format": "JSON"},
-        timeout=60,
-    )
-    response.raise_for_status()
-    result = response.json()
+    last_error: Optional[Exception] = None
+    result: dict[str, Any] = {}
+    for timeout_seconds in (60, 120):
+        try:
+            response = requests.post(
+                SDA_URL,
+                data={"query": sql, "format": "JSON"},
+                timeout=timeout_seconds,
+            )
+            response.raise_for_status()
+            result = response.json()
+            break
+        except Exception as exc:  # noqa: BLE001 - network retries
+            last_error = exc
+            continue
+
+    if not result:
+        if last_error:
+            raise last_error
+        return []
 
     if "Table" not in result:
         return []
@@ -137,7 +150,7 @@ def _build_soil_query(wkt: str, max_depth_cm: int = 30) -> str:
         SQL query string.
     """
     return f"""
-    SELECT
+    SELECT DISTINCT
         mu.mukey,
         mu.muname,
         c.compname,
@@ -155,14 +168,13 @@ def _build_soil_query(wkt: str, max_depth_cm: int = 30) -> str:
         ch.cec7_r
     FROM mapunit mu
     INNER JOIN component c ON mu.mukey = c.mukey
-    INNER JOIN chorizon ch ON c.cokey = ch.cokey
+    LEFT JOIN chorizon ch ON c.cokey = ch.cokey
     WHERE mu.mukey IN (
         SELECT * FROM SDA_Get_Mukey_from_intersection_with_WktWgs84(
             '{wkt}'
         )
     )
-    AND c.majcompflag = 'Yes'
-    AND ch.hzdept_r < {max_depth_cm}
+    AND (ch.hzdept_r < {max_depth_cm} OR ch.hzdept_r IS NULL)
     ORDER BY c.comppct_r DESC, ch.hzdept_r ASC
     """
 
@@ -354,3 +366,19 @@ def classify_drainage(drainage_class: str) -> str:
         "Very poorly drained": "poor",
     }
     return mapping.get(str(drainage_class), "unknown")
+
+
+try:
+    from ssurgo_workflows import (  # noqa: F401
+        NUMERIC_SOIL_PROPS,
+        aggregate_soil_rows_by_mukey,
+        classify_natural_breaks,
+        headlands_ring,
+        load_fallback_mukey_polygons,
+        prepare_ssurgo_field_package,
+        query_mupolygons_for_field,
+        render_complete_workflow_figure,
+        render_ssurgo_property_map,
+    )
+except Exception:
+    pass

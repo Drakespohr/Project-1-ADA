@@ -299,7 +299,97 @@ print("✓ Created 4 visualizations in output/visualizations/")
 ### Issue: Figure too small
 
 **Fix**: Increase figsize: `plt.figure(figsize=(12, 8))`
+**Fix**: Increase figsize: `plt.figure(figsize=(12, 8))`
 
+## Data Output Standards
+
+### Save Your Visualization Scripts
+
+Always save the Python script that generates your plots:
+
+```python
+# scripts/create_field_analysis_plots.py
+"""Create visualization suite for field data.
+
+Creates:
+- data/plots/field_size_distribution.png
+- data/plots/ph_vs_organic_matter.png
+- data/plots/yield_by_region.png
+- data/plots/correlation_heatmap.png
+"""
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from pathlib import Path
+
+# Create directories
+Path('data/plots').mkdir(parents=True, exist_ok=True)
+
+# Load data
+df = pd.read_csv('data/soil_measurements.csv')
+
+# Plot 1: Field size distribution
+plt.figure(figsize=(10, 6))
+sns.histplot(df['area_acres'], bins=20, kde=True)
+plt.title('Field Size Distribution')
+plt.xlabel('Area (acres)')
+plt.ylabel('Count')
+plt.savefig('data/plots/field_size_distribution.png', dpi=300, bbox_inches='tight')
+plt.close()
+
+print("Created: data/plots/field_size_distribution.png")
+
+# Plot 2: pH vs Organic Matter
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df, x='ph_water', y='organic_matter', hue='region')
+plt.title('pH vs Organic Matter by Region')
+plt.savefig('data/plots/ph_vs_organic_matter.png', dpi=300, bbox_inches='tight')
+plt.close()
+
+print("Created: data/plots/ph_vs_organic_matter.png")
+
+print("All plots saved to: data/plots/")
+```
+
+### Output Directory Structure
+
+```
+eda-visualize/
+├── data/
+│   ├── plots/                      # Generated visualizations
+│   │   ├── field_size_distribution.png
+│   │   ├── ph_vs_organic_matter.png
+│   │   └── README.md             # Documents plots
+│   └── README.md                 # Documents data
+├── scripts/                        # Python scripts
+│   └── create_field_analysis_plots.py
+├── examples/                       # Committed samples
+│   └── sample_plot.png
+└── SKILL.md
+```
+
+### README Template for data/plots/
+
+```markdown
+# Visualization Outputs
+
+Generated: 2024-01-15
+
+## Files
+
+| File | Script | Description |
+|------|--------|-------------|
+| field_size_distribution.png | create_field_analysis_plots.py | Histogram of field sizes |
+| ph_vs_organic_matter.png | create_field_analysis_plots.py | Scatter by region |
+
+## Regeneration
+
+```bash
+cd scripts
+python create_field_analysis_plots.py
+```
+```
 ## Resources
 
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)

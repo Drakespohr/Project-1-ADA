@@ -204,7 +204,78 @@ Export fields to file.
 ## Environment Variables
 
 No special environment variables required. The skill uses public USDA data.
+No special environment variables required. The skill uses public USDA data.
 
+## Data Output Standards
+
+### Save Your Download Script
+
+Always save the Python script that downloads your data:
+
+```python
+# scripts/download_my_fields.py
+"""Download field boundaries for my analysis.
+
+Creates:
+- data/fields_cornbelt_2024.geojson
+- data/fields_cornbelt_2024.parquet
+"""
+
+from field_boundaries import download_fields
+from pathlib import Path
+
+# Create data directory
+Path('data').mkdir(exist_ok=True)
+
+# Download fields
+fields = download_fields(
+    count=50,
+    regions=['corn_belt'],
+    crops=['corn', 'soybeans'],
+    output_path='data/fields_cornbelt_2024.geojson'
+)
+
+print(f"Downloaded {len(fields)} fields")
+print(f"Total area: {fields['area_acres'].sum():.1f} acres")
+print(f"Saved to: data/fields_cornbelt_2024.geojson")
+```
+
+### Output Directory Structure
+
+```
+field-boundaries/
+├── data/                           # Gitignored
+│   ├── fields_cornbelt_2024.geojson
+│   ├── fields_cornbelt_2024.parquet
+│   └── README.md                   # Document your downloads
+├── scripts/                        # Python scripts
+│   └── download_my_fields.py
+├── examples/                       # Committed sample
+│   └── sample_2_fields.geojson
+└── SKILL.md
+```
+
+### README Template for data/
+
+```markdown
+# Field Boundary Downloads
+
+Generated: 2024-01-15
+
+## Files
+
+| File | Script | Description |
+|------|--------|-------------|
+| fields_cornbelt_2024.geojson | download_my_fields.py | 50 corn belt fields |
+| fields_cornbelt_2024.parquet | download_my_fields.py | GeoParquet version |
+
+## Regeneration
+
+```bash
+cd scripts
+python download_my_fields.py
+```
+```
 ## Resources
 
 - [USDA NASS Crop Sequence Boundaries](https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/)

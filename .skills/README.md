@@ -1,58 +1,67 @@
----
-name: ag-skills-collection
-description: Agricultural Data Analysis Skills - A collection of AI-ready skills for downloading and analyzing US agricultural data using standard Python libraries.
-license: MIT
-metadata:
-  author: Boreal Bytes
-  version: '1.0'
-  source: https://github.com/borealbytes/ag-skills
----
-
 # Agricultural Data Analysis Skills
 
-A collection of Agent Skills for agricultural data download and analysis tasks. These skills follow the [AgentSkills.io](https://agentskills.io) specification.
+A collection of AI-ready skills for downloading and analyzing US agricultural data using standard Python libraries.
 
-## Skills Overview
-
-### Data Download Skills
-
-| Skill                                       | Description                        |
-| ------------------------------------------- | ---------------------------------- |
-| [field-boundaries](field-boundaries/)       | USDA NASS Crop Sequence Boundaries |
-| [ssurgo-soil](ssurgo-soil/)                 | USDA NRCS SSURGO soil data         |
-| [nasa-power-weather](nasa-power-weather/)   | NASA POWER weather data            |
-| [cdl-cropland](cdl-cropland/)               | USDA NASS Cropland Data Layer      |
-| [sentinel2-imagery](sentinel2-imagery/)     | ESA Sentinel-2 satellite imagery   |
-| [landsat-imagery](landsat-imagery/)         | USGS Landsat satellite imagery     |
-| [interactive-web-map](interactive-web-map/) | Interactive web maps               |
-
-### Analysis Skills
-
-| Skill                               | Description                                         |
-| ----------------------------------- | --------------------------------------------------- |
-| [eda-explore](eda-explore/)         | Data exploration with pandas, numpy                 |
-| [eda-visualize](eda-visualize/)     | Data visualization with pandas, matplotlib, seaborn |
-| [eda-correlate](eda-correlate/)     | Correlation analysis with pandas, scipy             |
-| [eda-time-series](eda-time-series/) | Time series analysis with pandas, matplotlib        |
-| [eda-compare](eda-compare/)         | Group comparisons with pandas, scipy                |
-
-## Usage
-
-When working on agricultural data tasks, check the `.skills/` directory for relevant skills. Agents supporting the AgentSkills.io specification will automatically discover these skills.
-
-### Quick Start
+## Quick Start
 
 ```bash
 # Install UV (fast Python package manager)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+# All skills use UV for isolated environments
 # Example: Download field boundaries
-cd .skills/field-boundaries
+cd field-boundaries
 uv run --with geopandas python << 'EOF'
 from field_boundaries import download_fields
 fields = download_fields(count=2, regions=['corn_belt'])
 fields.to_file('my_fields.geojson')
 EOF
+```
+
+## Skills Overview
+
+### Data Download Skills (With Python Code + Examples)
+
+All data download skills include:
+
+- **Real code**: Standard Python libraries (no custom wrappers)
+- **Examples/**: Sample data for 2 real fields from Minnesota
+- **SKILL.md**: AgentSkills.io format with YAML frontmatter
+- **UV isolation**: Each skill runs in its own environment
+
+| Skill                   | Description                        | Dependencies                |
+| ----------------------- | ---------------------------------- | --------------------------- |
+| **field-boundaries**    | USDA NASS Crop Sequence Boundaries | geopandas, matplotlib       |
+| **ssurgo-soil**         | USDA NRCS SSURGO soil data         | geopandas, pandas, requests |
+| **nasa-power-weather**  | NASA POWER weather data            | pandas, requests, xarray    |
+| **cdl-cropland**        | USDA NASS Cropland Data Layer      | rasterio, geopandas         |
+| **sentinel2-imagery**   | ESA Sentinel-2 satellite imagery   | sentinelsat, rasterio       |
+| **landsat-imagery**     | USGS Landsat satellite imagery     | landsatxplore, rasterio     |
+| **interactive-web-map** | Interactive web maps               | folium, geopandas           |
+
+### Analysis Skills (Markdown + Code Examples)
+
+These skills teach standard Python libraries:
+
+| Skill               | Purpose              | Libraries                   |
+| ------------------- | -------------------- | --------------------------- |
+| **eda-explore**     | Data exploration     | pandas, numpy               |
+| **eda-visualize**   | Data visualization   | pandas, matplotlib, seaborn |
+| **eda-correlate**   | Correlation analysis | pandas, scipy               |
+| **eda-time-series** | Time series analysis | pandas, matplotlib          |
+| **eda-compare**     | Group comparisons    | pandas, scipy               |
+
+## Example Data
+
+All data download skills include minimal real data for testing:
+
+```
+.skills/
+├── field-boundaries/examples/sample_2_fields.geojson  # 2 real MN fields
+├── ssurgo-soil/examples/soil_data_2_fields.csv        # Soil for those fields
+├── nasa-power-weather/examples/sample_weather_2fields_2020_2024.csv
+├── cdl-cropland/examples/sample_cdl_2_fields.csv
+└── ...
 ```
 
 ## Dependency Chain
@@ -70,9 +79,39 @@ field-boundaries (REQUIRED FIRST)
 eda-* skills (independent - work with any CSV)
 ```
 
+## Repository Sync
+
+These skills are synced to [ag-skills](https://github.com/borealBytes/ag-skills) for student access.
+
+**Sync mechanism**: Git subtree
+
+- Changes to `.skills/` in this repo → auto-sync to ag-skills
+- Students get only the skills, not course materials
+
+## Agent Skills Format
+
+All skills follow [AgentSkills.io](https://agentskills.io) format:
+
+```yaml
+---
+name: skill-name
+description: Clear description
+version: 1.0.0
+author: Boreal Bytes
+tags: [agriculture, data, ...]
+---
+# Skill Content
+- Description
+- When to Use
+- Prerequisites (UV)
+- Quick Start
+- Usage Examples
+- Data Source
+```
+
 ## License
 
-MIT License - See [LICENSE](https://github.com/borealbytes/ag-skills/blob/main/LICENSE)
+MIT License - See [LICENSE](../LICENSE)
 
 ## Citation
 

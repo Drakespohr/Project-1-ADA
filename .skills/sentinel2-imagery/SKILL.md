@@ -40,6 +40,7 @@ This skill includes small, non-imagery example files you can use for tests and d
 
 - `examples/sample_ndvi_metadata.json`
 - `examples/sample_field_stats.csv`
+- `examples/sample_ndvi_pixels.csv`
 
 ## UV environment setup
 
@@ -273,7 +274,7 @@ footprint = geojson_to_wkt(feature_collection)
 
 ## References
 
-- sentinelsat API overview: https://sentinelsat.readthedocs.io/en/stable/api_overview.html
-- sentinelsat API reference (SentinelAPI defaults): https://sentinelsat.readthedocs.io/en/v1.1.0/api_reference.html
-- rasterio docs: https://rasterio.readthedocs.io/
-- Sentinel-2 MSI user guide: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi
+- [sentinelsat API overview](https://sentinelsat.readthedocs.io/en/stable/api_overview.html)
+- [sentinelsat API reference (SentinelAPI defaults)](https://sentinelsat.readthedocs.io/en/v1.1.0/api_reference.html)
+- [rasterio documentation](https://rasterio.readthedocs.io/)
+- [Copernicus Data Space documentation](https://documentation.dataspace.copernicus.eu/)
