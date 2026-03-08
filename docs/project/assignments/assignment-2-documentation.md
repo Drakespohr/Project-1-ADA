@@ -612,6 +612,52 @@ EOF
 | -------------------- | ---------------------------------------- |
 | `my_fields_map.html` | Interactive Folium/Leaflet map (13.8 KB) |
 
+---
+
+## Recent Updates
+
+### Map Fix (March 8, 2026)
+
+**Problem:** The original `my_fields_map.html` rendered fields as tiny dots (barely visible) on a white background.
+
+**Root Cause:** The SVG polygon coordinates were incorrectly transformed to a local meter-based projection instead of using the original EPSG:4326 lat/lon coordinates from the GeoJSON.
+
+**Solution:**
+
+1. Verified Python environment (Python 3.12.1, folium 0.20.0, geopandas 1.1.2)
+2. Regenerated `my_fields_map.html` using the Python/Folium script
+3. Fields now render correctly at their geographic positions
+
+**Files Modified:**
+
+- `data/assignment-02/my_fields_map.html` - Regenerated (13.8 KB)
+- `.gitignore` - Added `data/assignment-02/*.tif` to exclude large raster files
+
+### Git Commit
+
+```bash
+git add data/assignment-02/*.csv data/assignment-02/*.geojson \
+       data/assignment-02/*.html docs/project/assignments/assignment-2-documentation.md
+git commit -m 'complete assignement 2; first data download and exploration'
+git push --set-upstream origin feature/assignment-02-first-data
+```
+
+### Pull Request
+
+- **PR:** https://github.com/Drakespohr/Project-1-ADA/pull/1
+- **Title:** "Assignment 2: first data download"
+- **Status:** Awaiting review
+
+---
+
+### Patterns & Observations
+
+**Patterns Seen:** Corn-soybean rotation is clearly visible in the CDL data. Most fields alternate between corn and soybeans yearly.
+
+**Surprises:** Some fields span very large areas and appear to extend over roadways, which is interesting for precision agriculture applications.
+
+**Questions:** How can specific fields of interest be tracked over time? What tools or techniques are recommended for identifying exact field boundaries?
+
 Patterns Seen - nothing that i can directly see in the map as far as im concerned
 surprises- It surprises me that some of the fields go over roadways and span really large areas
 Questions about what im seeing? - I am very curious about how to say track exact fields im interested in
