@@ -1,0 +1,586 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <style>
+      #map_b7cbf869510be2dd1de494379d7db113 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+      }
+      .leaflet-container {
+        font-size: 1rem;
+      }
+    </style>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <style>
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+    </style>
+
+    <script>
+      L_NO_TOUCH = false;
+      L_DISABLE_3D = false;
+    </script>
+
+    <style>
+      .foliumtooltip {
+      }
+      .foliumtooltip table {
+        margin: auto;
+      }
+      .foliumtooltip tr {
+        text-align: left;
+      }
+      .foliumtooltip th {
+        padding: 2px;
+        padding-right: 8px;
+      }
+    </style>
+
+    <style>
+      .foliumpopup {
+        margin: auto;
+      }
+      .foliumpopup table {
+        margin: auto;
+      }
+      .foliumpopup tr {
+        text-align: left;
+      }
+      .foliumpopup th {
+        padding: 2px;
+        padding-right: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: fixed;
+        top: 10px;
+        left: 60px;
+        z-index: 9999;
+        background: white;
+        padding: 10px 16px;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        font-family: sans-serif;
+      "
+    >
+      <b>My Fields — CDL Crop Types (2023)</b>
+    </div>
+
+    <div
+      style="
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        z-index: 9999;
+        background: white;
+        padding: 10px 16px;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        font-family: sans-serif;
+        font-size: 12px;
+      "
+    >
+      <b>Legend</b><br />
+      <i
+        style="
+          background: #f1c40f;
+          width: 12px;
+          height: 12px;
+          display: inline-block;
+          margin-right: 5px;
+        "
+      ></i>
+      Corn<br />
+      <i
+        style="
+          background: #27ae60;
+          width: 12px;
+          height: 12px;
+          display: inline-block;
+          margin-right: 5px;
+        "
+      ></i>
+      Soybeans<br />
+      <i
+        style="
+          background: #7f8c8d;
+          width: 12px;
+          height: 12px;
+          display: inline-block;
+          margin-right: 5px;
+        "
+      ></i>
+      Developed/Low Intensity
+    </div>
+
+    <div class="folium-map" id="map_b7cbf869510be2dd1de494379d7db113"></div>
+  </body>
+  <script>
+    var map_b7cbf869510be2dd1de494379d7db113 = L.map(
+      'map_b7cbf869510be2dd1de494379d7db113',
+      {
+        center: [42.17472235007409, -94.41385609788105],
+        crs: L.CRS.EPSG3857,
+        ...{
+          zoom: 8,
+          zoomControl: true,
+          preferCanvas: false,
+        },
+      }
+    );
+
+    var tile_layer_48a4a7810423ba64bef3853373f8906f = L.tileLayer(
+      'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        minZoom: 0,
+        maxZoom: 19,
+        maxNativeZoom: 19,
+        noWrap: false,
+        attribution:
+          '\u0026copy; \u003ca href="https://www.openstreetmap.org/copyright"\u003eOpenStreetMap\u003c/a\u003e contributors',
+        subdomains: 'abc',
+        detectRetina: false,
+        tms: false,
+        opacity: 1,
+      }
+    );
+
+    tile_layer_48a4a7810423ba64bef3853373f8906f.addTo(
+      map_b7cbf869510be2dd1de494379d7db113
+    );
+
+    var tile_layer_2d55bb534ccba662b4ab939daaf9bd92 = L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      {
+        minZoom: 0,
+        maxZoom: 18,
+        maxNativeZoom: 18,
+        noWrap: false,
+        attribution: 'Esri',
+        subdomains: 'abc',
+        detectRetina: false,
+        tms: false,
+        opacity: 1,
+      }
+    );
+
+    tile_layer_2d55bb534ccba662b4ab939daaf9bd92.addTo(
+      map_b7cbf869510be2dd1de494379d7db113
+    );
+
+    var tile_layer_13357c4004ed9f2e590ee633c661f3c8 = L.tileLayer(
+      'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+      {
+        minZoom: 0,
+        maxZoom: 18,
+        maxNativeZoom: 18,
+        noWrap: false,
+        attribution: 'OpenTopoMap',
+        subdomains: 'abc',
+        detectRetina: false,
+        tms: false,
+        opacity: 1,
+      }
+    );
+
+    tile_layer_13357c4004ed9f2e590ee633c661f3c8.addTo(
+      map_b7cbf869510be2dd1de494379d7db113
+    );
+
+    function geo_json_a20338f2bc7deeb4d3fda2284de62e90_styler(feature) {
+      switch (feature.id) {
+        case '3':
+          return {
+            color: '#2c3e50',
+            fillColor: '#7f8c8d',
+            fillOpacity: 0.6,
+            weight: 2,
+          };
+        case '11':
+        case '15':
+        case '19':
+          return {
+            color: '#2c3e50',
+            fillColor: '#f1c40f',
+            fillOpacity: 0.6,
+            weight: 2,
+          };
+        default:
+          return {
+            color: '#2c3e50',
+            fillColor: '#27ae60',
+            fillOpacity: 0.6,
+            weight: 2,
+          };
+      }
+    }
+
+    function geo_json_a20338f2bc7deeb4d3fda2284de62e90_onEachFeature(
+      feature,
+      layer
+    ) {
+      layer.on({});
+    }
+    var geo_json_a20338f2bc7deeb4d3fda2284de62e90 = L.geoJson(null, {
+      onEachFeature: geo_json_a20338f2bc7deeb4d3fda2284de62e90_onEachFeature,
+
+      style: geo_json_a20338f2bc7deeb4d3fda2284de62e90_styler,
+      ...{},
+    });
+
+    function geo_json_a20338f2bc7deeb4d3fda2284de62e90_add(data) {
+      geo_json_a20338f2bc7deeb4d3fda2284de62e90.addData(data);
+    }
+    geo_json_a20338f2bc7deeb4d3fda2284de62e90_add({
+      bbox: [
+        -96.17366932034082, 40.58516343580019, -92.01170334377393,
+        43.3782609706811,
+      ],
+      features: [
+        {
+          bbox: [
+            -96.17366932034082, 42.77124070215894, -96.15763488233591,
+            42.78727514016385,
+          ],
+          geometry: {
+            coordinates: [
+              [
+                [-96.17366932034082, 42.77124070215894],
+                [-96.15763488233591, 42.77124070215894],
+                [-96.15763488233591, 42.78727514016385],
+                [-96.17366932034082, 42.78727514016385],
+                [-96.17366932034082, 42.77124070215894],
+              ],
+            ],
+            type: 'Polygon',
+          },
+          id: '3',
+          properties: {
+            area_acres: 6353.158446235238,
+            crop_code: 122,
+            crop_name_cdl: 'Developed/Low Intensity',
+            crop_name_original: 'wheat',
+            dominant_pct: 52.0,
+            field_id: 'FIELD_0001',
+            region: 'great_plains',
+            year: 2023,
+          },
+          type: 'Feature',
+        },
+        {
+          bbox: [
+            -95.09421527407207, 40.58516343580019, -95.08120192196708,
+            40.598176787905196,
+          ],
+          geometry: {
+            coordinates: [
+              [
+                [-95.09421527407207, 40.58516343580019],
+                [-95.08120192196708, 40.58516343580019],
+                [-95.08120192196708, 40.598176787905196],
+                [-95.09421527407207, 40.598176787905196],
+                [-95.09421527407207, 40.58516343580019],
+              ],
+            ],
+            type: 'Polygon',
+          },
+          id: '7',
+          properties: {
+            area_acres: 4184.663707509324,
+            crop_code: 5,
+            crop_name_cdl: 'Soybeans',
+            crop_name_original: 'corn',
+            dominant_pct: 47.2,
+            field_id: 'FIELD_0006',
+            region: 'great_plains',
+            year: 2023,
+          },
+          type: 'Feature',
+        },
+        {
+          bbox: [
+            -96.00889028836212, 42.705427658412354, -95.99763406847069,
+            42.716683878303805,
+          ],
+          geometry: {
+            coordinates: [
+              [
+                [-96.00889028836212, 42.705427658412354],
+                [-95.99763406847069, 42.705427658412354],
+                [-95.99763406847069, 42.716683878303805],
+                [-96.00889028836212, 42.716683878303805],
+                [-96.00889028836212, 42.705427658412354],
+              ],
+            ],
+            type: 'Polygon',
+          },
+          id: '11',
+          properties: {
+            area_acres: 3130.8866010397323,
+            crop_code: 1,
+            crop_name_cdl: 'Corn',
+            crop_name_original: 'soybeans',
+            dominant_pct: 68.9,
+            field_id: 'FIELD_0008',
+            region: 'great_plains',
+            year: 2023,
+          },
+          type: 'Feature',
+        },
+        {
+          bbox: [
+            -92.03029708000436, 43.35966723445068, -92.01170334377393,
+            43.3782609706811,
+          ],
+          geometry: {
+            coordinates: [
+              [
+                [-92.03029708000436, 43.35966723445068],
+                [-92.01170334377393, 43.35966723445068],
+                [-92.01170334377393, 43.3782609706811],
+                [-92.03029708000436, 43.3782609706811],
+                [-92.03029708000436, 43.35966723445068],
+              ],
+            ],
+            type: 'Polygon',
+          },
+          id: '15',
+          properties: {
+            area_acres: 8543.100838470966,
+            crop_code: 1,
+            crop_name_cdl: 'Corn',
+            crop_name_original: 'soybeans',
+            dominant_pct: 53.9,
+            field_id: 'FIELD_0016',
+            region: 'great_plains',
+            year: 2023,
+          },
+          type: 'Feature',
+        },
+        {
+          bbox: [
+            -92.80130794796091, 41.41301329821326, -92.78200685152262,
+            41.43231439465154,
+          ],
+          geometry: {
+            coordinates: [
+              [
+                [-92.80130794796091, 41.41301329821326],
+                [-92.78200685152262, 41.41301329821326],
+                [-92.78200685152262, 41.43231439465154],
+                [-92.80130794796091, 41.43231439465154],
+                [-92.80130794796091, 41.41301329821326],
+              ],
+            ],
+            type: 'Polygon',
+          },
+          id: '19',
+          properties: {
+            area_acres: 9205.474141509474,
+            crop_code: 1,
+            crop_name_cdl: 'Corn',
+            crop_name_original: 'cotton',
+            dominant_pct: 29.3,
+            field_id: 'FIELD_0017',
+            region: 'great_plains',
+            year: 2023,
+          },
+          type: 'Feature',
+        },
+      ],
+      type: 'FeatureCollection',
+    });
+
+    geo_json_a20338f2bc7deeb4d3fda2284de62e90.bindTooltip(
+      function (layer) {
+        let div = L.DomUtil.create('div');
+
+        let handleObject = (feature) => {
+          if (feature === null) {
+            return '';
+          } else if (typeof feature == 'object') {
+            return JSON.stringify(feature);
+          } else {
+            return feature;
+          }
+        };
+        let fields = [
+          'field_id',
+          'crop_name_cdl',
+          'area_acres',
+          'dominant_pct',
+        ];
+        let aliases = ['Field ID:', 'Crop:', 'Area (acres):', 'Coverage %:'];
+        let table =
+          '<table>' +
+          String(
+            fields
+              .map(
+                (v, i) =>
+                  `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`
+              )
+              .join('')
+          ) +
+          '</table>';
+        div.innerHTML = table;
+
+        return div;
+      },
+      {
+        sticky: true,
+        className: 'foliumtooltip',
+      }
+    );
+
+    geo_json_a20338f2bc7deeb4d3fda2284de62e90.bindPopup(
+      function (layer) {
+        let div = L.DomUtil.create('div');
+
+        let handleObject = (feature) => {
+          if (feature === null) {
+            return '';
+          } else if (typeof feature == 'object') {
+            return JSON.stringify(feature);
+          } else {
+            return feature;
+          }
+        };
+        let fields = [
+          'field_id',
+          'region',
+          'crop_name_original',
+          'crop_name_cdl',
+          'crop_code',
+          'dominant_pct',
+          'area_acres',
+          'year',
+        ];
+        let aliases = [
+          'Field ID:',
+          'Region:',
+          'Original Crop:',
+          'CDL Crop:',
+          'Crop Code:',
+          'Coverage %:',
+          'Area (acres):',
+          'Year:',
+        ];
+        let table =
+          '<table>' +
+          String(
+            fields
+              .map(
+                (v, i) =>
+                  `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`
+              )
+              .join('')
+          ) +
+          '</table>';
+        div.innerHTML = table;
+
+        return div;
+      },
+      {
+        className: 'foliumpopup',
+      }
+    );
+
+    geo_json_a20338f2bc7deeb4d3fda2284de62e90.addTo(
+      map_b7cbf869510be2dd1de494379d7db113
+    );
+
+    var layer_control_f6cfaf835cbbd1f2281b3694b9f317e6_layers = {
+      base_layers: {
+        openstreetmap: tile_layer_48a4a7810423ba64bef3853373f8906f,
+        Satellite: tile_layer_2d55bb534ccba662b4ab939daaf9bd92,
+        Terrain: tile_layer_13357c4004ed9f2e590ee633c661f3c8,
+      },
+      overlays: {
+        'Fields by Crop (2023)': geo_json_a20338f2bc7deeb4d3fda2284de62e90,
+      },
+    };
+    let layer_control_f6cfaf835cbbd1f2281b3694b9f317e6 = L.control
+      .layers(
+        layer_control_f6cfaf835cbbd1f2281b3694b9f317e6_layers.base_layers,
+        layer_control_f6cfaf835cbbd1f2281b3694b9f317e6_layers.overlays,
+        {
+          position: 'topright',
+          collapsed: false,
+          autoZIndex: true,
+        }
+      )
+      .addTo(map_b7cbf869510be2dd1de494379d7db113);
+
+    map_b7cbf869510be2dd1de494379d7db113.fitBounds(
+      [
+        [40.58516343580019, -96.17366932034082],
+        [43.3782609706811, -92.01170334377393],
+      ],
+      { padding: [30, 30] }
+    );
+  </script>
+</html>

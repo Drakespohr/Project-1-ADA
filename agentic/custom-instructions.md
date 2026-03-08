@@ -306,6 +306,29 @@ Key requirements:
 
 ---
 
+## Agricultural Data Skills
+
+When working on agricultural data tasks (US farmland, soil, weather, satellite imagery, crop analysis), check the `.skills/` directory for relevant Agent Skills. These skills follow the [AgentSkills.io](https://agentskills.io) specification and are automatically discovered by compatible agents.
+
+### Available Skills
+
+| Category          | Skills                                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Data Download** | field-boundaries, ssurgo-soil, nasa-power-weather, cdl-cropland, sentinel2-imagery, landsat-imagery, interactive-web-map |
+| **Analysis**      | eda-explore, eda-visualize, eda-correlate, eda-time-series, eda-compare                                                  |
+
+### Dependency Order
+
+For agricultural data workflows:
+
+1. Start with `field-boundaries` to get field polygons
+2. Then use `ssurgo-soil`, `nasa-power-weather`, or `cdl-cropland` with field data
+3. Use `eda-*` skills for analysis on any downloaded CSV data
+
+See [`.skills/README.md`](../../.skills/README.md) for complete documentation.
+
+---
+
 ## 🔗 References
 
 - **Universal standards** → [contribute_standards.md](contribute_standards.md)
@@ -313,6 +336,7 @@ Key requirements:
 - **Markdown formatting** → [markdown_style_guide.md](markdown_style_guide.md)
 - **Mermaid diagrams** → [mermaid_style_guide.md](mermaid_style_guide.md)
 - **Architecture decisions** → [adr/](adr/) (global) + subsystem `adr/` directories (for example `.crewai/adr/`)
+- **Agricultural data skills** → [`.skills/`](../.skills/README.md)
 
 ---
 
