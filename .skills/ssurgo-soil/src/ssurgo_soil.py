@@ -27,7 +27,7 @@ Usage:
 
 import warnings
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any
 
 try:
     import geopandas as gpd
@@ -238,7 +238,7 @@ def download_soil(
     fields: "gpd.GeoDataFrame",
     field_id_column: str = "field_id",
     max_depth_cm: int = 30,
-    output_path: Optional[str] = None,
+    output_path: str | None = None,
 ) -> pd.DataFrame:
     """Download SSURGO soil data for multiple field boundaries.
 

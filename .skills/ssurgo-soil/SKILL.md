@@ -90,7 +90,7 @@ uv pip install geopandas pandas requests
 
 **USDA NRCS Soil Data Access (SDA)**
 
-- **API**: https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest
+- **API**: <https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest>
 - **Database**: SSURGO (Soil Survey Geographic Database)
 - **Coverage**: Most agricultural areas in the US
 - **Resolution**: 1:12,000 to 1:63,360 (detailed field-level)
@@ -105,17 +105,17 @@ The SDA API accepts SQL queries against the SSURGO database tables:
 
 ## Key Soil Attributes
 
-| SSURGO Column   | Description               | Units       | Typical Range |
-| --------------- | ------------------------- | ----------- | ------------- |
-| `om_r`          | Organic matter            | %           | 0-20          |
-| `ph1to1h2o_r`   | pH in water               | pH units    | 3.5-10.0      |
-| `awc_r`         | Available water capacity  | inches/inch | 0-0.25        |
-| `drainagecl`    | Drainage class            | categorical | -             |
-| `claytotal_r`   | Clay content              | %           | 0-100         |
-| `sandtotal_r`   | Sand content              | %           | 0-100         |
-| `silttotal_r`   | Silt content              | %           | 0-100         |
-| `dbthirdbar_r`  | Bulk density              | g/cm3       | 0.5-2.0       |
-| `cec7_r`        | Cation exchange capacity  | meq/100g    | 0-50          |
+| SSURGO Column  | Description              | Units       | Typical Range |
+| -------------- | ------------------------ | ----------- | ------------- |
+| `om_r`         | Organic matter           | %           | 0-20          |
+| `ph1to1h2o_r`  | pH in water              | pH units    | 3.5-10.0      |
+| `awc_r`        | Available water capacity | inches/inch | 0-0.25        |
+| `drainagecl`   | Drainage class           | categorical | -             |
+| `claytotal_r`  | Clay content             | %           | 0-100         |
+| `sandtotal_r`  | Sand content             | %           | 0-100         |
+| `silttotal_r`  | Silt content             | %           | 0-100         |
+| `dbthirdbar_r` | Bulk density             | g/cm3       | 0.5-2.0       |
+| `cec7_r`       | Cation exchange capacity | meq/100g    | 0-50          |
 
 ## Usage Examples
 

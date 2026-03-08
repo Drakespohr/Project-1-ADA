@@ -273,7 +273,7 @@ footprint = geojson_to_wkt(feature_collection)
 
 ## References
 
-- sentinelsat API overview: https://sentinelsat.readthedocs.io/en/stable/api_overview.html
-- sentinelsat API reference (SentinelAPI defaults): https://sentinelsat.readthedocs.io/en/v1.1.0/api_reference.html
-- rasterio docs: https://rasterio.readthedocs.io/
-- Sentinel-2 MSI user guide: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi
+- sentinelsat API overview: <https://sentinelsat.readthedocs.io/en/stable/api_overview.html>
+- sentinelsat API reference (SentinelAPI defaults): <https://sentinelsat.readthedocs.io/en/v1.1.0/api_reference.html>
+- rasterio docs: <https://rasterio.readthedocs.io/>
+- Sentinel-2 MSI user guide: <https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi>

@@ -612,7 +612,6 @@ EOF
 | -------------------- | ---------------------------------------- |
 | `my_fields_map.html` | Interactive Folium/Leaflet map (13.8 KB) |
 
-Patterns Seen - nothing that i can directly see in the map as far as im concerned 
-surprises- It surprises me that some of the fields go over roadways and span really large areas 
-Questions about what im seeing? - I am very curious about how to say track exact fields im interested in 
-
+Patterns Seen - nothing that i can directly see in the map as far as im concerned
+surprises- It surprises me that some of the fields go over roadways and span really large areas
+Questions about what im seeing? - I am very curious about how to say track exact fields im interested in

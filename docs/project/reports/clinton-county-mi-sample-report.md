@@ -82,7 +82,7 @@ This report presents a comprehensive analysis of agricultural field data for Cli
 
 Weather data sourced from **NASA POWER** (Prediction Of Worldwide Energy Resources) API[^1].
 
-[^1]: NASA Langley Research Center. (2024). _POWER Data Access Viewer_. https://power.larc.nasa.gov/
+[^1]: NASA Langley Research Center. (2024). _POWER Data Access Viewer_. <https://power.larc.nasa.gov/>
 
 ### Annual Summary
 
@@ -214,10 +214,10 @@ Weather data sourced from **NASA POWER** (Prediction Of Worldwide Energy Resourc
 
 | Dataset          | Source                                       | URL                                                                      |
 | ---------------- | -------------------------------------------- | ------------------------------------------------------------------------ |
-| Field Boundaries | USDA NASS Crop Sequence Boundaries 2017-2024 | https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/ |
-| Soil Data        | USDA NRCS SSURGO via Soil Data Access API    | https://sdmdataaccess.sc.egov.usda.gov/                                  |
-| Weather Data     | NASA POWER                                   | https://power.larc.nasa.gov/                                             |
-| Cropland Data    | USDA NASS Cropland Data Layer                | https://nassgeodata.gmu.edu/VegScape/                                    |
+| Field Boundaries | USDA NASS Crop Sequence Boundaries 2017-2024 | <https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/> |
+| Soil Data        | USDA NRCS SSURGO via Soil Data Access API    | <https://sdmdataaccess.sc.egov.usda.gov/>                                  |
+| Weather Data     | NASA POWER                                   | <https://power.larc.nasa.gov/>                                             |
+| Cropland Data    | USDA NASS Cropland Data Layer                | <https://nassgeodata.gmu.edu/VegScape/>                                    |
 
 ---
 
