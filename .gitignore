@@ -118,13 +118,15 @@ test-results/
 
 # ===========================
 # Agricultural Data (not tracked - disposable)
-# ===========================
 data/ag-skills/*
 !data/ag-skills/fields/.gitkeep
 !data/ag-skills/soil/.gitkeep
 !data/ag-skills/weather/.gitkeep
 !data/ag-skills/cdl/.gitkeep
 !data/ag-skills/imagery/.gitkeep
+
+# Assignment 2 - Large raster files (downloadable from USDA NASS)
+data/assignment-02/*.tif
 
 # ===========================
 # Misc
