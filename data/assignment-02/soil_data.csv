@@ -1,0 +1,222 @@
+mukey,muname,compname,comppct_r,drainagecl,hzdept_r,hzdepb_r,om_r,ph1to1h2o_r,awc_r,claytotal_r,sandtotal_r,silttotal_r,dbthirdbar_r,cec7_r,field_id
+410340,"Galva silty clay loam, 2 to 5 percent slopes",Galva,95,Well drained,0,15,4.0,5.7,0.22,32.0,4.0,64.0,1.28,25.2,FIELD_0001
+410363,"Galva silty clay loam, terrace, 0 to 2 percent slopes",Galva,95,Well drained,0,15,4.0,5.7,0.22,32.0,4.0,64.0,1.28,25.2,FIELD_0001
+410364,"Galva silty clay loam, terrace, 2 to 5 percent slopes",Galva,95,Well drained,0,15,4.0,5.7,0.22,32.0,4.0,64.0,1.28,25.2,FIELD_0001
+410340,"Galva silty clay loam, 2 to 5 percent slopes",Galva,95,Well drained,15,43,3.5,6.5,0.22,33.0,3.0,64.0,1.28,27.3,FIELD_0001
+410363,"Galva silty clay loam, terrace, 0 to 2 percent slopes",Galva,95,Well drained,15,43,3.5,6.5,0.22,33.0,3.0,64.0,1.28,27.3,FIELD_0001
+410364,"Galva silty clay loam, terrace, 2 to 5 percent slopes",Galva,95,Well drained,15,43,3.5,6.5,0.22,33.0,3.0,64.0,1.28,27.3,FIELD_0001
+410351,"Radford silty clay loam, 2 to 5 percent slopes",Radford,90,Somewhat poorly drained,0,23,2.0,6.2,0.22,29.0,5.0,66.0,1.38,23.5,FIELD_0001
+410351,"Radford silty clay loam, 2 to 5 percent slopes",Radford,90,Somewhat poorly drained,23,61,2.0,6.5,0.21,22.0,7.0,71.0,1.36,18.6,FIELD_0001
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,0,15,3.1,5.8,0.22,32.0,5.0,63.0,1.28,25.2,FIELD_0001
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,15,25,1.6,6.6,0.22,32.0,5.0,63.0,1.28,27.3,FIELD_0001
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,25,79,1.5,7.0,0.19,29.0,5.0,66.0,1.33,24.7,FIELD_0001
+410330,"Ida silt loam, 5 to 9 percent slopes, severely eroded",Ida,80,Well drained,0,10,1.5,7.7,0.23,21.0,7.0,72.0,1.42,16.6,FIELD_0001
+410330,"Ida silt loam, 5 to 9 percent slopes, severely eroded",Ida,80,Well drained,10,200,0.3,8.0,0.21,20.0,6.0,74.0,1.42,15.0,FIELD_0001
+410194,"Adair clay loam, dissected till plain, 5 to 9 percent slopes, eroded",Adair,90,Somewhat poorly drained,0,18,3.6,6.2,0.18,30.0,23.0,47.0,1.34,24.5,FIELD_0006
+410209,"Sharpsburg silty clay loam, 2 to 5 percent slopes",Sharpsburg,90,Moderately well drained,0,20,3.8,6.2,0.22,33.0,2.0,65.0,1.31,25.5,FIELD_0006
+410211,"Sharpsburg silty clay loam, 5 to 9 percent slopes",Sharpsburg,90,Moderately well drained,0,20,3.8,6.2,0.22,33.0,2.0,65.0,1.31,25.5,FIELD_0006
+410212,"Sharpsburg silty clay loam, 5 to 9 percent slopes, eroded",Sharpsburg,90,Moderately well drained,0,18,3.1,5.7,0.22,34.0,2.0,64.0,1.38,27.2,FIELD_0006
+410213,"Sharpsburg silty clay loam, 9 to 14 percent slopes",Sharpsburg,90,Moderately well drained,0,20,3.8,6.2,0.22,33.0,2.0,65.0,1.31,25.5,FIELD_0006
+410194,"Adair clay loam, dissected till plain, 5 to 9 percent slopes, eroded",Adair,90,Somewhat poorly drained,18,43,0.6,5.8,0.1,43.0,22.0,35.0,1.38,31.5,FIELD_0006
+410212,"Sharpsburg silty clay loam, 5 to 9 percent slopes, eroded",Sharpsburg,90,Moderately well drained,18,54,0.8,6.0,0.19,38.0,2.0,60.0,1.29,28.4,FIELD_0006
+410209,"Sharpsburg silty clay loam, 2 to 5 percent slopes",Sharpsburg,90,Moderately well drained,20,43,3.0,5.8,0.22,35.0,2.0,63.0,1.25,24.2,FIELD_0006
+410211,"Sharpsburg silty clay loam, 5 to 9 percent slopes",Sharpsburg,90,Moderately well drained,20,43,3.0,5.8,0.22,35.0,2.0,63.0,1.25,24.2,FIELD_0006
+410213,"Sharpsburg silty clay loam, 9 to 14 percent slopes",Sharpsburg,90,Moderately well drained,20,43,3.0,5.8,0.22,35.0,2.0,63.0,1.25,24.2,FIELD_0006
+410195,"Adair clay loam, dissected till plain, 9 to 14 percent slopes",Adair,85,Somewhat poorly drained,0,20,3.7,6.2,0.18,30.0,21.0,49.0,1.33,24.5,FIELD_0006
+410201,"Shelby loam, dissected till plain, 9 to 14 percent slopes",Shelby,85,Well drained,0,18,3.3,6.0,0.18,26.0,34.0,40.0,1.39,22.0,FIELD_0006
+410202,"Shelby clay loam, dissected till plain, 9 to 14 percent slopes, eroded",Shelby,85,Well drained,0,18,2.9,6.2,0.18,30.0,33.0,37.0,1.38,24.9,FIELD_0006
+410214,"Sharpsburg silty clay loam, 9 to 14 percent slopes, eroded",Sharpsburg,85,Moderately well drained,0,18,3.1,5.7,0.22,34.0,2.0,64.0,1.38,27.2,FIELD_0006
+410201,"Shelby loam, dissected till plain, 9 to 14 percent slopes",Shelby,85,Well drained,18,28,2.5,6.1,0.18,33.0,32.0,35.0,1.42,27.0,FIELD_0006
+410202,"Shelby clay loam, dissected till plain, 9 to 14 percent slopes, eroded",Shelby,85,Well drained,18,93,1.1,6.1,0.16,34.0,30.0,36.0,1.46,26.9,FIELD_0006
+410214,"Sharpsburg silty clay loam, 9 to 14 percent slopes, eroded",Sharpsburg,85,Moderately well drained,18,54,0.8,6.0,0.19,38.0,2.0,60.0,1.29,28.4,FIELD_0006
+410195,"Adair clay loam, dissected till plain, 9 to 14 percent slopes",Adair,85,Somewhat poorly drained,20,33,2.7,6.0,0.18,34.0,21.0,45.0,1.37,27.0,FIELD_0006
+410201,"Shelby loam, dissected till plain, 9 to 14 percent slopes",Shelby,85,Well drained,28,117,1.1,6.1,0.16,34.0,30.0,36.0,1.46,26.9,FIELD_0006
+410196,"Adair clay loam, dissected till plain, 9 to 14 percent slopes, eroded",Adair,80,Somewhat poorly drained,0,18,3.6,6.2,0.18,30.0,23.0,47.0,1.34,24.5,FIELD_0006
+410196,"Adair clay loam, dissected till plain, 9 to 14 percent slopes, eroded",Adair,80,Somewhat poorly drained,18,43,0.6,5.8,0.1,43.0,22.0,35.0,1.38,31.5,FIELD_0006
+410184,"Colo-Judson silty clay loams, 0 to 5 percent slopes, occasionally flooded",Colo,65,Poorly drained,0,20,6.0,6.3,0.22,30.0,6.0,64.0,1.27,25.6,FIELD_0006
+410184,"Colo-Judson silty clay loams, 0 to 5 percent slopes, occasionally flooded",Colo,65,Poorly drained,20,86,3.0,6.4,0.19,31.0,6.0,63.0,1.23,25.7,FIELD_0006
+410184,"Colo-Judson silty clay loams, 0 to 5 percent slopes, occasionally flooded",Judson,25,Well drained,0,23,3.8,5.8,0.22,29.0,4.0,67.0,1.31,24.4,FIELD_0006
+410184,"Colo-Judson silty clay loams, 0 to 5 percent slopes, occasionally flooded",Judson,25,Well drained,23,56,2.6,6.1,0.19,30.0,4.0,66.0,1.26,24.8,FIELD_0006
+410340,"Galva silty clay loam, 2 to 5 percent slopes",Galva,95,Well drained,0,15,4.0,5.7,0.22,32.0,4.0,64.0,1.28,25.2,FIELD_0008
+410350,"Radford silty clay loam, 0 to 2 percent slopes",Radford,95,Somewhat poorly drained,0,23,2.0,6.2,0.22,29.0,5.0,66.0,1.38,23.5,FIELD_0008
+410364,"Galva silty clay loam, terrace, 2 to 5 percent slopes",Galva,95,Well drained,0,15,4.0,5.7,0.22,32.0,4.0,64.0,1.28,25.2,FIELD_0008
+410340,"Galva silty clay loam, 2 to 5 percent slopes",Galva,95,Well drained,15,43,3.5,6.5,0.22,33.0,3.0,64.0,1.28,27.3,FIELD_0008
+410364,"Galva silty clay loam, terrace, 2 to 5 percent slopes",Galva,95,Well drained,15,43,3.5,6.5,0.22,33.0,3.0,64.0,1.28,27.3,FIELD_0008
+410350,"Radford silty clay loam, 0 to 2 percent slopes",Radford,95,Somewhat poorly drained,23,61,2.0,6.5,0.21,22.0,7.0,71.0,1.36,18.6,FIELD_0008
+410318,"Graceville silt loam, 2 to 5 percent slopes",Graceville,90,Moderately well drained,0,20,4.0,6.5,0.21,23.0,9.5,67.5,1.18,20.8,FIELD_0008
+410351,"Radford silty clay loam, 2 to 5 percent slopes",Radford,90,Somewhat poorly drained,0,23,2.0,6.2,0.22,29.0,5.0,66.0,1.38,23.5,FIELD_0008
+410318,"Graceville silt loam, 2 to 5 percent slopes",Graceville,90,Moderately well drained,20,51,4.0,6.5,0.21,23.0,9.5,67.5,1.18,20.8,FIELD_0008
+410351,"Radford silty clay loam, 2 to 5 percent slopes",Radford,90,Somewhat poorly drained,23,61,2.0,6.5,0.21,22.0,7.0,71.0,1.36,18.6,FIELD_0008
+410320,"Colo silty clay loam, deep loess, 0 to 2 percent slopes, occasionally flooded",Colo,85,Poorly drained,0,20,6.0,6.3,0.22,30.0,6.0,64.0,1.27,25.6,FIELD_0008
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,0,15,3.1,5.8,0.22,32.0,5.0,63.0,1.28,25.2,FIELD_0008
+410342,"Galva silty clay loam, 9 to 14 percent slopes, eroded",Galva,85,Well drained,0,15,3.1,5.8,0.22,32.0,5.0,63.0,1.28,25.2,FIELD_0008
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,15,25,1.6,6.6,0.22,32.0,5.0,63.0,1.28,27.3,FIELD_0008
+410342,"Galva silty clay loam, 9 to 14 percent slopes, eroded",Galva,85,Well drained,15,25,1.6,6.6,0.22,32.0,5.0,63.0,1.28,27.3,FIELD_0008
+410320,"Colo silty clay loam, deep loess, 0 to 2 percent slopes, occasionally flooded",Colo,85,Poorly drained,20,86,3.0,6.4,0.19,31.0,6.0,63.0,1.23,25.7,FIELD_0008
+410341,"Galva silty clay loam, 5 to 9 percent slopes, eroded",Galva,85,Well drained,25,79,1.5,7.0,0.19,29.0,5.0,66.0,1.33,24.7,FIELD_0008
+410342,"Galva silty clay loam, 9 to 14 percent slopes, eroded",Galva,85,Well drained,25,79,1.5,7.0,0.19,29.0,5.0,66.0,1.33,24.7,FIELD_0008
+410343,"Galva-Wadena complex, 5 to 14 percent slopes, moderately eroded",Galva,50,Well drained,0,15,3.2,6.5,0.22,36.5,8.7,54.8,1.28,38.5,FIELD_0008
+410343,"Galva-Wadena complex, 5 to 14 percent slopes, moderately eroded",Galva,50,Well drained,15,25,3.5,6.5,0.22,36.5,8.7,54.8,1.28,38.5,FIELD_0008
+410343,"Galva-Wadena complex, 5 to 14 percent slopes, moderately eroded",Galva,50,Well drained,25,71,1.5,6.7,0.19,34.5,6.0,59.5,1.33,38.5,FIELD_0008
+410343,"Galva-Wadena complex, 5 to 14 percent slopes, moderately eroded",Wadena,30,Well drained,0,38,3.0,6.7,0.21,22.5,39.8,37.7,1.4,30.5,FIELD_0008
+451003,"Orwood silt loam, 5 to 9 percent slopes, moderately eroded",Orwood,100,Well drained,0,20,2.5,6.5,0.21,17.0,29.3,53.7,1.38,14.9,FIELD_0016
+451002,"Orwood silt loam, 2 to 5 percent slopes",Orwood,100,Well drained,0,20,3.0,6.5,0.21,21.0,26.3,52.7,1.38,18.1,FIELD_0016
+451003,"Orwood silt loam, 5 to 9 percent slopes, moderately eroded",Orwood,100,Well drained,20,56,1.5,6.5,0.21,21.0,26.3,52.7,1.38,17.6,FIELD_0016
+451002,"Orwood silt loam, 2 to 5 percent slopes",Orwood,100,Well drained,20,25,1.5,6.5,0.21,20.0,25.0,55.0,1.38,17.6,FIELD_0016
+451002,"Orwood silt loam, 2 to 5 percent slopes",Orwood,100,Well drained,25,56,1.5,6.5,0.21,23.0,26.0,51.0,1.38,17.6,FIELD_0016
+766671,"Ossian silt loam, 0 to 3 percent slopes, occasionally flooded",Ossian,95,Poorly drained,0,20,6.0,7.0,0.23,24.5,9.2,66.3,1.28,21.4,FIELD_0016
+451039,"Terril loam, 2 to 5 percent slopes",Terril,95,Moderately well drained,0,20,3.5,6.2,0.21,22.0,33.0,45.0,1.33,19.0,FIELD_0016
+1429111,"Kasson loam, 5 to 9 percent slopes",Kasson,95,Moderately well drained,0,20,2.5,6.2,0.14,22.0,41.0,37.0,1.42,18.7,FIELD_0016
+450123,"Floyd loam, 1 to 4 percent slopes",Floyd,95,Somewhat poorly drained,0,41,4.0,6.7,0.21,23.0,30.0,47.0,1.35,21.0,FIELD_0016
+437401,"Dickinson fine sandy loam, 2 to 5 percent slopes",Dickinson,95,Well drained,0,23,2.0,6.3,0.15,10.0,65.0,25.0,1.53,9.1,FIELD_0016
+766671,"Ossian silt loam, 0 to 3 percent slopes, occasionally flooded",Ossian,95,Poorly drained,20,38,6.0,7.0,0.23,24.5,9.2,66.3,1.28,21.4,FIELD_0016
+451039,"Terril loam, 2 to 5 percent slopes",Terril,95,Moderately well drained,20,58,3.0,6.3,0.21,24.0,30.0,46.0,1.35,20.4,FIELD_0016
+1429111,"Kasson loam, 5 to 9 percent slopes",Kasson,95,Moderately well drained,20,28,0.65,6.2,0.15,23.0,29.0,48.0,1.42,18.5,FIELD_0016
+437401,"Dickinson fine sandy loam, 2 to 5 percent slopes",Dickinson,95,Well drained,23,46,1.5,6.2,0.15,10.0,65.0,25.0,1.5,9.0,FIELD_0016
+1429111,"Kasson loam, 5 to 9 percent slopes",Kasson,95,Moderately well drained,28,51,0.4,5.9,0.15,24.0,36.0,40.0,1.5,18.9,FIELD_0016
+1008428,"Klossner muck, 1 to 4 percent slopes",Klossner,90,Very poorly drained,0,25,75.0,,0.38,,,,0.26,161.6,FIELD_0016
+437366,"Marlean loam, 2 to 5 percent slopes",Marlean,90,Well drained,0,18,3.5,6.7,0.21,21.0,41.6,37.4,1.43,18.2,FIELD_0016
+1429112,"Kasson loam, 5 to 9 percent slopes, eroded",Kasson,90,Moderately well drained,0,18,1.9,6.2,0.14,22.0,41.0,37.0,1.42,18.5,FIELD_0016
+1429110,"Kasson loam, 2 to 5 percent slopes",Kasson,90,Moderately well drained,0,20,2.5,6.2,0.14,22.0,41.0,37.0,1.42,18.7,FIELD_0016
+1429112,"Kasson loam, 5 to 9 percent slopes, eroded",Kasson,90,Moderately well drained,18,28,0.65,6.2,0.15,23.0,29.0,48.0,1.42,18.5,FIELD_0016
+437366,"Marlean loam, 2 to 5 percent slopes",Marlean,90,Well drained,18,23,2.5,6.7,0.21,21.0,41.6,37.4,1.43,18.2,FIELD_0016
+1429110,"Kasson loam, 2 to 5 percent slopes",Kasson,90,Moderately well drained,20,28,0.65,6.2,0.15,23.0,29.0,48.0,1.42,18.5,FIELD_0016
+437366,"Marlean loam, 2 to 5 percent slopes",Marlean,90,Well drained,23,30,0.5,6.7,0.2,24.0,39.1,36.9,1.48,19.0,FIELD_0016
+1008428,"Klossner muck, 1 to 4 percent slopes",Klossner,90,Very poorly drained,25,66,80.0,,0.42,,,,0.23,174.2,FIELD_0016
+1429112,"Kasson loam, 5 to 9 percent slopes, eroded",Kasson,90,Moderately well drained,28,51,0.4,5.9,0.15,24.0,36.0,40.0,1.5,18.9,FIELD_0016
+1429110,"Kasson loam, 2 to 5 percent slopes",Kasson,90,Moderately well drained,28,51,0.4,5.9,0.15,24.0,36.0,40.0,1.5,18.9,FIELD_0016
+437375,"Racine loam, 2 to 5 percent slopes",Racine,85,Well drained,0,20,2.5,6.8,0.15,17.0,36.0,47.0,1.43,14.9,FIELD_0016
+451004,"Orwood silt loam, 9 to 14 percent slopes, moderately eroded",Orwood,85,Well drained,0,20,2.5,6.5,0.21,17.0,29.3,53.7,1.38,14.9,FIELD_0016
+451005,"Orwood silt loam, 14 to 18 percent slopes, moderately eroded",Orwood,85,Well drained,0,20,2.5,6.5,0.21,17.0,29.3,53.7,1.38,14.9,FIELD_0016
+1399086,"Coland clay loam, 0 to 2 percent slopes, occasionally flooded",Coland,85,Poorly drained,0,20,6.0,6.3,0.11,30.0,28.0,42.0,1.31,25.6,FIELD_0016
+451061,"Winneshiek loam, 2 to 5 percent slopes",Winneshiek,85,Well drained,0,20,3.0,6.5,0.2,21.0,41.6,37.4,1.48,18.1,FIELD_0016
+622331,"Rockton loam, 2 to 5 percent slopes",Rockton,85,Well drained,0,20,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+622384,"Rockton loam, 5 to 9 percent slopes",Rockton,85,Well drained,0,20,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+437375,"Racine loam, 2 to 5 percent slopes",Racine,85,Well drained,20,30,0.9,6.4,0.15,19.0,36.0,45.0,1.42,15.8,FIELD_0016
+1399086,"Coland clay loam, 0 to 2 percent slopes, occasionally flooded",Coland,85,Poorly drained,20,81,4.5,6.3,0.12,30.0,28.0,42.0,1.25,25.4,FIELD_0016
+451004,"Orwood silt loam, 9 to 14 percent slopes, moderately eroded",Orwood,85,Well drained,20,56,1.5,6.5,0.21,21.0,26.3,52.7,1.38,17.6,FIELD_0016
+451005,"Orwood silt loam, 14 to 18 percent slopes, moderately eroded",Orwood,85,Well drained,20,56,1.5,6.5,0.21,21.0,26.3,52.7,1.38,17.6,FIELD_0016
+451061,"Winneshiek loam, 2 to 5 percent slopes",Winneshiek,85,Well drained,20,28,1.0,6.5,0.18,24.0,39.1,36.9,1.6,19.6,FIELD_0016
+622331,"Rockton loam, 2 to 5 percent slopes",Rockton,85,Well drained,20,38,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+622384,"Rockton loam, 5 to 9 percent slopes",Rockton,85,Well drained,20,38,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+451061,"Winneshiek loam, 2 to 5 percent slopes",Winneshiek,85,Well drained,28,41,1.0,6.5,0.18,24.0,39.1,36.9,1.6,19.6,FIELD_0016
+450540,"Jacwin loam, 0 to 2 percent slopes",Jacwin,80,Somewhat poorly drained,0,20,5.5,6.7,0.21,26.5,28.2,45.3,1.4,22.9,FIELD_0016
+450993,"Marlean loam, 14 to 18 percent slopes, moderately eroded",Marlean,80,Well drained,0,20,3.0,6.7,0.21,21.0,41.6,37.4,1.43,18.1,FIELD_0016
+451019,"Renova loam, 9 to 14 percent slopes, moderately eroded",Renova,80,Well drained,0,20,2.0,6.1,0.23,23.5,39.2,37.3,1.35,19.7,FIELD_0016
+451064,"Winneshiek loam, 9 to 14 percent slopes",Winneshiek,80,Well drained,0,20,3.0,6.5,0.2,21.0,41.6,37.4,1.48,18.1,FIELD_0016
+450540,"Jacwin loam, 0 to 2 percent slopes",Jacwin,80,Somewhat poorly drained,20,33,5.5,6.7,0.21,26.0,28.7,45.3,1.4,22.5,FIELD_0016
+450993,"Marlean loam, 14 to 18 percent slopes, moderately eroded",Marlean,80,Well drained,20,30,0.5,6.7,0.2,24.0,39.1,36.9,1.48,19.0,FIELD_0016
+451019,"Renova loam, 9 to 14 percent slopes, moderately eroded",Renova,80,Well drained,20,48,0.25,5.3,0.21,28.0,17.8,54.2,1.4,,FIELD_0016
+451064,"Winneshiek loam, 9 to 14 percent slopes",Winneshiek,80,Well drained,20,41,1.0,6.5,0.18,24.0,39.1,36.9,1.6,19.6,FIELD_0016
+756308,"Marshan loam, 0 to 2 percent slopes, rarely flooded",Marshan,75,Poorly drained,0,20,5.5,6.5,0.21,30.0,21.0,49.0,1.35,25.6,FIELD_0016
+622385,"Rockton loam, 9 to 14 percent slopes",Rockton,75,Well drained,0,20,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+451062,"Winneshiek loam, 5 to 9 percent slopes",Winneshiek,75,Well drained,0,20,3.0,6.5,0.2,21.0,41.6,37.4,1.48,18.1,FIELD_0016
+437364,"Backbone sandy loam, 5 to 9 percent slopes",Backbone,75,Well drained,0,20,1.5,6.8,0.14,8.0,70.0,22.0,1.62,7.4,FIELD_0016
+437367,"Marlean loam, 5 to 9 percent slopes",Marlean,75,Well drained,0,20,3.5,6.7,0.21,21.0,41.6,37.4,1.43,18.2,FIELD_0016
+450991,"Marlean loam, 9 to 14 percent slopes, moderately eroded",Marlean,75,Well drained,0,20,3.0,6.7,0.21,21.0,41.6,37.4,1.43,18.1,FIELD_0016
+437368,"Marlean loam, 5 to 9 percent slopes, moderately eroded",Marlean,75,Well drained,0,20,3.0,6.7,0.21,21.0,41.6,37.4,1.43,18.1,FIELD_0016
+450541,"Jacwin loam, 2 to 5 percent slopes",Jacwin,75,Somewhat poorly drained,0,20,5.5,6.7,0.21,26.5,28.2,45.3,1.4,22.9,FIELD_0016
+437397,"Clyde silt loam, 0 to 3 percent slopes",Clyde,75,Poorly drained,0,43,7.5,6.7,0.15,25.0,18.0,57.0,1.21,21.9,FIELD_0016
+756308,"Marshan loam, 0 to 2 percent slopes, rarely flooded",Marshan,75,Poorly drained,20,36,3.5,6.5,0.21,30.0,18.0,52.0,1.35,25.1,FIELD_0016
+622385,"Rockton loam, 9 to 14 percent slopes",Rockton,75,Well drained,20,38,3.5,6.2,0.21,22.5,39.8,37.7,1.35,19.4,FIELD_0016
+451062,"Winneshiek loam, 5 to 9 percent slopes",Winneshiek,75,Well drained,20,41,1.0,6.5,0.18,24.0,39.1,36.9,1.6,19.6,FIELD_0016
+450991,"Marlean loam, 9 to 14 percent slopes, moderately eroded",Marlean,75,Well drained,20,30,0.5,6.7,0.2,24.0,39.1,36.9,1.48,19.0,FIELD_0016
+450541,"Jacwin loam, 2 to 5 percent slopes",Jacwin,75,Somewhat poorly drained,20,33,5.5,6.7,0.21,26.0,28.7,45.3,1.4,22.5,FIELD_0016
+437368,"Marlean loam, 5 to 9 percent slopes, moderately eroded",Marlean,75,Well drained,20,30,0.5,6.7,0.2,24.0,39.1,36.9,1.48,19.0,FIELD_0016
+437367,"Marlean loam, 5 to 9 percent slopes",Marlean,75,Well drained,20,30,0.5,6.7,0.2,24.0,39.1,36.9,1.48,19.0,FIELD_0016
+437364,"Backbone sandy loam, 5 to 9 percent slopes",Backbone,75,Well drained,20,43,0.75,6.7,0.12,10.0,64.0,26.0,1.54,8.8,FIELD_0016
+1008304,"Lilah-Dickinson complex, 2 to 5 percent slopes",Lilah,70,Excessively drained,0,20,1.5,5.6,0.12,9.0,67.0,24.0,1.53,7.1,FIELD_0016
+1008304,"Lilah-Dickinson complex, 2 to 5 percent slopes",Lilah,70,Excessively drained,20,38,0.25,5.3,0.11,12.0,68.0,20.0,1.6,,FIELD_0016
+1008306,"Lilah-Dickinson complex, 5 to 9 percent slopes",Lilah,60,Excessively drained,0,20,1.5,5.6,0.12,9.0,67.0,24.0,1.53,7.1,FIELD_0016
+1008306,"Lilah-Dickinson complex, 5 to 9 percent slopes",Lilah,60,Excessively drained,20,38,0.25,5.3,0.11,12.0,68.0,20.0,1.6,,FIELD_0016
+1382543,"Lawson-Ossian complex, 0 to 4 percent slopes",Lawson,55,Somewhat poorly drained,0,20,5.0,7.0,0.23,18.5,11.7,69.8,1.38,16.5,FIELD_0016
+437167,"Atkinson loam, 2 to 5 percent slopes",Atkinson,55,Well drained,0,18,3.5,6.1,0.21,21.0,42.0,37.0,1.43,18.2,FIELD_0016
+437167,"Atkinson loam, 2 to 5 percent slopes",Atkinson,55,Well drained,18,33,3.0,6.1,0.21,21.0,42.0,37.0,1.43,18.1,FIELD_0016
+1382543,"Lawson-Ossian complex, 0 to 4 percent slopes",Lawson,55,Somewhat poorly drained,20,76,5.0,7.0,0.23,18.5,11.7,69.8,1.38,16.5,FIELD_0016
+766669,"Calamine-Jacwin complex, 0 to 3 percent slopes",Calamine,50,Poorly drained,0,20,5.5,7.0,0.21,29.0,18.0,53.0,1.28,33.0,FIELD_0016
+766669,"Calamine-Jacwin complex, 0 to 3 percent slopes",Calamine,50,Poorly drained,20,51,5.5,7.0,0.21,29.0,18.0,53.0,1.28,33.0,FIELD_0016
+1382543,"Lawson-Ossian complex, 0 to 4 percent slopes",Ossian,40,Poorly drained,0,20,6.0,7.0,0.23,24.5,9.2,66.3,1.28,21.4,FIELD_0016
+1382543,"Lawson-Ossian complex, 0 to 4 percent slopes",Ossian,40,Poorly drained,20,38,6.0,7.0,0.23,24.5,9.2,66.3,1.28,21.4,FIELD_0016
+766669,"Calamine-Jacwin complex, 0 to 3 percent slopes",Jacwin,35,Somewhat poorly drained,0,20,5.5,6.7,0.21,26.5,28.2,45.3,1.4,22.9,FIELD_0016
+766669,"Calamine-Jacwin complex, 0 to 3 percent slopes",Jacwin,35,Somewhat poorly drained,20,33,5.5,6.7,0.21,26.0,28.7,45.3,1.4,22.5,FIELD_0016
+1008306,"Lilah-Dickinson complex, 5 to 9 percent slopes",Dickinson,25,Well drained,0,20,2.0,6.5,0.14,15.0,65.0,20.0,1.53,13.2,FIELD_0016
+1008306,"Lilah-Dickinson complex, 5 to 9 percent slopes",Dickinson,25,Well drained,20,46,1.5,5.8,0.14,14.0,66.0,20.0,1.5,12.2,FIELD_0016
+1008304,"Lilah-Dickinson complex, 2 to 5 percent slopes",Dickinson,20,Well drained,0,20,2.0,6.5,0.14,15.0,65.0,20.0,1.53,13.2,FIELD_0016
+1008304,"Lilah-Dickinson complex, 2 to 5 percent slopes",Dickinson,20,Well drained,20,46,1.5,5.8,0.14,14.0,66.0,20.0,1.5,12.2,FIELD_0016
+409344,"Zook silty clay loam, 2 to 5 percent slopes",Zook,100,Poorly drained,0,18,6.0,6.7,0.22,34.0,7.5,58.5,1.33,27.8,FIELD_0017
+409343,"Zook silt loam, overwash, 0 to 2 percent slopes",Zook,100,Poorly drained,0,18,3.0,6.7,0.23,23.0,12.5,64.5,1.5,19.4,FIELD_0017
+409344,"Zook silty clay loam, 2 to 5 percent slopes",Zook,100,Poorly drained,18,51,6.0,6.7,0.22,36.0,7.5,56.5,1.33,29.2,FIELD_0017
+409343,"Zook silt loam, overwash, 0 to 2 percent slopes",Zook,100,Poorly drained,18,33,3.0,6.7,0.23,23.0,12.5,64.5,1.5,19.4,FIELD_0017
+409376,"Clinton silt loam, 2 to 5 percent slopes",Clinton,95,Moderately well drained,0,20,2.5,6.3,0.19,22.0,3.0,75.0,1.35,18.5,FIELD_0017
+409370,"Ladoga silt loam, 2 to 5 percent slopes",Ladoga,95,Moderately well drained,0,18,3.0,6.6,0.2,25.0,2.0,73.0,1.33,20.8,FIELD_0017
+409290,"Kennebec silt loam, 0 to 2 percent slopes",Kennebec,95,Moderately well drained,0,124,5.0,6.5,0.23,24.5,9.2,66.3,1.3,33.0,FIELD_0017
+409359,"Lindley loam, 18 to 25 percent slopes, moderately eroded",Lindley,95,Well drained,0,5,0.75,6.3,0.15,22.0,36.0,42.0,1.46,17.9,FIELD_0017
+409350,"Hedrick silt loam, 5 to 9 percent slopes, moderately eroded",Hedrick,95,Moderately well drained,0,20,2.5,6.5,0.22,21.5,11.2,67.3,1.33,22.5,FIELD_0017
+409349,"Hedrick silt loam, 5 to 9 percent slopes",Hedrick,95,Moderately well drained,0,20,3.0,6.5,0.22,21.5,11.2,67.3,1.33,22.5,FIELD_0017
+409342,"Zook silty clay loam, 0 to 2 percent slopes, occasionally flooded",Zook,95,Poorly drained,0,18,4.5,6.2,0.11,35.0,3.0,62.0,1.35,28.2,FIELD_0017
+409359,"Lindley loam, 18 to 25 percent slopes, moderately eroded",Lindley,95,Well drained,5,15,0.5,5.9,0.15,20.0,41.0,39.0,1.47,16.2,FIELD_0017
+409359,"Lindley loam, 18 to 25 percent slopes, moderately eroded",Lindley,95,Well drained,15,114,0.3,6.0,0.13,29.0,41.0,30.0,1.51,22.1,FIELD_0017
+409370,"Ladoga silt loam, 2 to 5 percent slopes",Ladoga,95,Moderately well drained,18,25,2.0,6.1,0.19,24.0,2.0,74.0,1.4,19.8,FIELD_0017
+409342,"Zook silty clay loam, 0 to 2 percent slopes, occasionally flooded",Zook,95,Poorly drained,18,51,3.2,6.4,0.11,39.0,4.0,57.0,1.29,30.6,FIELD_0017
+409376,"Clinton silt loam, 2 to 5 percent slopes",Clinton,95,Moderately well drained,20,38,1.0,5.6,0.18,20.0,3.0,77.0,1.35,16.6,FIELD_0017
+409350,"Hedrick silt loam, 5 to 9 percent slopes, moderately eroded",Hedrick,95,Moderately well drained,20,135,0.5,5.8,0.19,32.0,6.7,61.3,1.38,22.5,FIELD_0017
+409349,"Hedrick silt loam, 5 to 9 percent slopes",Hedrick,95,Moderately well drained,20,135,0.5,5.8,0.19,32.0,6.7,61.3,1.38,22.5,FIELD_0017
+409370,"Ladoga silt loam, 2 to 5 percent slopes",Ladoga,95,Moderately well drained,25,36,1.0,6.0,0.19,28.0,2.0,70.0,1.36,22.1,FIELD_0017
+409391,"Amana complex, channeled, 0 to 2 percent slopes",Amana,90,Moderately well drained,0,41,4.0,6.5,0.23,28.5,7.1,64.4,1.25,27.5,FIELD_0017
+409385,"Judson silty clay loam, 2 to 5 percent slopes",Judson,90,Well drained,0,23,3.5,6.5,0.13,30.0,4.0,66.0,1.38,25.1,FIELD_0017
+409378,"Clinton silt loam, 5 to 9 percent slopes, eroded",Clinton,90,Moderately well drained,0,15,2.0,6.3,0.19,22.0,3.0,75.0,1.35,18.4,FIELD_0017
+409277,"Colo silty clay loam, 0 to 2 percent slopes, occasionally flooded",Colo,90,Poorly drained,0,20,5.0,6.5,0.16,30.0,6.0,64.0,1.29,25.5,FIELD_0017
+409377,"Clinton silt loam, 5 to 9 percent slopes",Clinton,90,Moderately well drained,0,20,2.5,6.3,0.19,22.0,3.0,75.0,1.35,18.5,FIELD_0017
+409278,"Colo silt loam, 0 to 2 percent slopes, occasionally flooded, overwash",Colo,90,Poorly drained,0,18,4.0,6.0,0.22,24.0,7.0,69.0,1.34,20.6,FIELD_0017
+409374,"Ladoga silt loam, 9 to 14 percent slopes, eroded",Ladoga,90,Moderately well drained,0,15,2.5,6.6,0.2,25.0,2.0,73.0,1.33,20.7,FIELD_0017
+409283,"Fayette silt loam, till plain, 9 to 14 percent slopes, eroded",Fayette,90,Well drained,0,20,2.0,6.2,0.2,20.0,5.0,75.0,1.42,17.0,FIELD_0017
+409284,"Fayette silt loam, till plain, 14 to 18 percent slopes, eroded",Fayette,90,Well drained,0,20,2.0,6.2,0.2,20.0,5.0,75.0,1.42,17.0,FIELD_0017
+409362,"Seaton silt loam, 18 to 25 percent slopes, moderately eroded",Seaton,90,Well drained,0,33,2.0,6.5,0.23,18.5,11.7,69.8,1.15,17.5,FIELD_0017
+409289,"Boone fine sandy loam, 18 to 40 percent slopes",Boone,90,Excessively drained,0,8,1.0,5.5,0.12,3.0,85.0,12.0,1.6,2.7,FIELD_0017
+409361,"Seaton silt loam, 14 to 18 percent slopes, moderately eroded",Seaton,90,Well drained,0,33,2.0,6.5,0.23,18.5,11.7,69.8,1.15,17.5,FIELD_0017
+409298,"Humeston silt loam, 0 to 2 percent slopes",Humeston,90,Poorly drained,0,20,3.5,6.5,0.22,26.0,15.0,59.0,1.4,21.6,FIELD_0017
+409335,"Radford silt loam, 0 to 2 percent slopes",Radford,90,Somewhat poorly drained,0,30,2.0,6.5,0.23,22.5,9.5,68.0,1.5,27.5,FIELD_0017
+409336,"Spillville loam, 0 to 2 percent slopes, occasionally flooded",Spillville,90,Somewhat poorly drained,0,20,5.5,6.7,0.14,22.0,41.0,37.0,1.2,19.3,FIELD_0017
+409289,"Boone fine sandy loam, 18 to 40 percent slopes",Boone,90,Excessively drained,8,20,0.25,5.5,0.08,2.0,88.0,10.0,1.63,1.3,FIELD_0017
+409378,"Clinton silt loam, 5 to 9 percent slopes, eroded",Clinton,90,Moderately well drained,15,28,1.0,5.6,0.19,28.0,3.0,69.0,1.35,22.1,FIELD_0017
+409374,"Ladoga silt loam, 9 to 14 percent slopes, eroded",Ladoga,90,Moderately well drained,15,25,1.0,6.0,0.19,28.0,2.0,70.0,1.36,22.1,FIELD_0017
+409278,"Colo silt loam, 0 to 2 percent slopes, occasionally flooded, overwash",Colo,90,Poorly drained,18,28,3.5,6.0,0.22,25.0,3.0,72.0,1.28,21.3,FIELD_0017
+409377,"Clinton silt loam, 5 to 9 percent slopes",Clinton,90,Moderately well drained,20,38,1.0,5.6,0.18,20.0,3.0,77.0,1.35,16.6,FIELD_0017
+409336,"Spillville loam, 0 to 2 percent slopes, occasionally flooded",Spillville,90,Somewhat poorly drained,20,137,3.5,6.7,0.14,22.0,41.0,37.0,1.35,19.0,FIELD_0017
+409298,"Humeston silt loam, 0 to 2 percent slopes",Humeston,90,Poorly drained,20,33,3.5,6.5,0.23,26.0,15.0,59.0,1.5,21.6,FIELD_0017
+409289,"Boone fine sandy loam, 18 to 40 percent slopes",Boone,90,Excessively drained,20,53,0.25,5.5,0.08,1.5,89.0,9.5,1.63,1.3,FIELD_0017
+409284,"Fayette silt loam, till plain, 14 to 18 percent slopes, eroded",Fayette,90,Well drained,20,28,0.75,6.2,0.17,25.0,3.0,72.0,1.45,20.1,FIELD_0017
+409283,"Fayette silt loam, till plain, 9 to 14 percent slopes, eroded",Fayette,90,Well drained,20,28,0.75,6.2,0.17,25.0,3.0,72.0,1.45,20.1,FIELD_0017
+409277,"Colo silty clay loam, 0 to 2 percent slopes, occasionally flooded",Colo,90,Poorly drained,20,36,3.5,6.5,0.17,30.0,6.0,64.0,1.31,25.1,FIELD_0017
+409385,"Judson silty clay loam, 2 to 5 percent slopes",Judson,90,Well drained,23,56,3.5,6.5,0.13,30.0,4.0,66.0,1.32,25.1,FIELD_0017
+409374,"Ladoga silt loam, 9 to 14 percent slopes, eroded",Ladoga,90,Moderately well drained,25,48,0.75,5.7,0.18,33.0,2.0,65.0,1.42,25.3,FIELD_0017
+409284,"Fayette silt loam, till plain, 14 to 18 percent slopes, eroded",Fayette,90,Well drained,28,58,0.5,5.5,0.18,31.0,3.0,66.0,1.45,24.0,FIELD_0017
+409283,"Fayette silt loam, till plain, 9 to 14 percent slopes, eroded",Fayette,90,Well drained,28,58,0.5,5.5,0.18,31.0,3.0,66.0,1.45,24.0,FIELD_0017
+409278,"Colo silt loam, 0 to 2 percent slopes, occasionally flooded, overwash",Colo,90,Poorly drained,28,56,5.0,6.5,0.16,30.0,6.0,64.0,1.29,25.5,FIELD_0017
+409378,"Clinton silt loam, 5 to 9 percent slopes, eroded",Clinton,90,Moderately well drained,28,41,0.75,5.4,0.18,33.0,2.0,65.0,1.4,,FIELD_0017
+409339,"Vesser silt loam, 0 to 2 percent slopes",Vesser,85,Poorly drained,0,33,3.5,6.5,0.22,23.0,9.5,67.5,1.33,27.5,FIELD_0017
+409337,"Ossian silt loam, 0 to 2 percent slopes",Ossian,85,Poorly drained,0,18,6.0,7.0,0.23,24.5,9.2,66.3,1.28,33.0,FIELD_0017
+409324,"Amana silty clay loam, 0 to 2 percent slopes",Amana,85,Somewhat poorly drained,0,41,4.0,6.5,0.23,28.5,7.1,64.4,1.25,27.5,FIELD_0017
+409291,"Nodaway silt loam, 0 to 2 percent slopes",Nodaway,85,Moderately well drained,0,18,3.0,6.7,0.22,22.5,7.5,70.0,1.3,22.5,FIELD_0017
+409288,"Landes fine sandy loam, 0 to 2 percent slopes",Landes,85,Moderately well drained,0,36,2.0,6.7,0.16,12.5,67.3,20.2,1.5,12.5,FIELD_0017
+409371,"Ladoga silt loam, 5 to 9 percent slopes",Ladoga,85,Moderately well drained,0,18,3.0,6.6,0.2,25.0,2.0,73.0,1.33,20.8,FIELD_0017
+409372,"Ladoga silt loam, 5 to 9 percent slopes, eroded",Ladoga,85,Moderately well drained,0,15,2.5,6.6,0.2,25.0,2.0,73.0,1.33,20.7,FIELD_0017
+409279,"Colo silty clay loam, 2 to 5 percent slopes, occasionally flooded",Colo,85,Poorly drained,0,20,5.0,6.5,0.16,30.0,6.0,64.0,1.29,25.5,FIELD_0017
+409379,"Clinton silt loam, 9 to 14 percent slopes, eroded",Clinton,85,Moderately well drained,0,15,2.0,6.3,0.19,22.0,3.0,75.0,1.35,18.4,FIELD_0017
+409372,"Ladoga silt loam, 5 to 9 percent slopes, eroded",Ladoga,85,Moderately well drained,15,25,1.0,6.0,0.19,28.0,2.0,70.0,1.36,22.1,FIELD_0017
+409379,"Clinton silt loam, 9 to 14 percent slopes, eroded",Clinton,85,Moderately well drained,15,28,1.0,5.6,0.19,28.0,3.0,69.0,1.35,22.1,FIELD_0017
+409337,"Ossian silt loam, 0 to 2 percent slopes",Ossian,85,Poorly drained,18,152,2.5,7.2,0.21,28.0,7.1,64.9,1.35,33.0,FIELD_0017
+409291,"Nodaway silt loam, 0 to 2 percent slopes",Nodaway,85,Moderately well drained,18,79,0.25,6.7,0.22,23.0,7.0,70.0,1.3,22.5,FIELD_0017
+409371,"Ladoga silt loam, 5 to 9 percent slopes",Ladoga,85,Moderately well drained,18,25,2.0,6.1,0.19,24.0,2.0,74.0,1.4,19.8,FIELD_0017
+409279,"Colo silty clay loam, 2 to 5 percent slopes, occasionally flooded",Colo,85,Poorly drained,20,36,3.5,6.5,0.17,30.0,6.0,64.0,1.31,25.1,FIELD_0017
+409371,"Ladoga silt loam, 5 to 9 percent slopes",Ladoga,85,Moderately well drained,25,36,1.0,6.0,0.19,28.0,2.0,70.0,1.36,22.1,FIELD_0017
+409372,"Ladoga silt loam, 5 to 9 percent slopes, eroded",Ladoga,85,Moderately well drained,25,48,0.75,5.7,0.18,33.0,2.0,65.0,1.42,25.3,FIELD_0017
+409379,"Clinton silt loam, 9 to 14 percent slopes, eroded",Clinton,85,Moderately well drained,28,41,0.75,5.4,0.18,33.0,2.0,65.0,1.4,,FIELD_0017
+409317,"Nodaway-Alluvial land complex, 0 to 2 percent slopes",Nodaway,60,Moderately well drained,0,18,3.0,6.7,0.22,22.5,7.5,70.0,1.3,22.5,FIELD_0017
+409317,"Nodaway-Alluvial land complex, 0 to 2 percent slopes",Nodaway,60,Moderately well drained,18,79,0.25,6.7,0.22,23.0,7.0,70.0,1.3,22.5,FIELD_0017
+409272,"Colo-Ely complex, 0 to 5 percent slopes",Colo,50,Poorly drained,0,20,5.0,6.5,0.16,30.0,6.0,64.0,1.29,25.5,FIELD_0017
+409272,"Colo-Ely complex, 0 to 5 percent slopes",Colo,50,Poorly drained,20,36,3.5,6.5,0.17,30.0,6.0,64.0,1.31,25.1,FIELD_0017
+409272,"Colo-Ely complex, 0 to 5 percent slopes",Ely,40,Somewhat poorly drained,0,20,5.0,6.5,0.17,28.0,4.0,68.0,1.31,23.9,FIELD_0017
+409272,"Colo-Ely complex, 0 to 5 percent slopes",Ely,40,Somewhat poorly drained,20,61,3.5,6.5,0.17,28.0,4.0,68.0,1.28,23.6,FIELD_0017
+409317,"Nodaway-Alluvial land complex, 0 to 2 percent slopes",Alluvial land,30,Excessively drained,0,18,1.25,6.5,0.08,6.0,92.1,1.9,1.53,7.5,FIELD_0017
+409317,"Nodaway-Alluvial land complex, 0 to 2 percent slopes",Alluvial land,30,Excessively drained,18,66,0.25,6.7,0.16,11.5,90.7,,1.55,12.5,FIELD_0017
