@@ -644,7 +644,7 @@ git push --set-upstream origin feature/assignment-02-first-data
 
 ### Pull Request
 
-- **PR:** https://github.com/Drakespohr/Project-1-ADA/pull/1
+- **PR:** <https://github.com/Drakespohr/Project-1-ADA/pull/1>
 - **Title:** "Assignment 2: first data download"
 - **Status:** Awaiting review
 
